@@ -76,7 +76,7 @@ public class Palindrome {
     }
 
 
-    // reverse the LL
+    // reverse the LL from mid
     public Node reverseLL()
     {
         Node midNode = midNode();

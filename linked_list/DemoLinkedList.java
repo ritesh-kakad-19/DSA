@@ -17,11 +17,12 @@ public class DemoLinkedList
         list.addFirst("is");
         list.addFirst("this");
 
-        list.addLast("java");
+        list.addLast("java");   // addLast() = add()
 
         System.out.println(list);
 
         // get()
+        System.out.println(list.get(3));
         System.out.println(list.getFirst());
         System.out.println(list.getLast());
 
@@ -32,6 +33,7 @@ public class DemoLinkedList
         System.out.println("null");
 
         // remove()
+        list.remove("is");
         list.removeFirst();
         list.removeLast();
         list.remove(2);
