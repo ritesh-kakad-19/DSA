@@ -9,14 +9,14 @@ public class DemoMap {
         // In the hashmap insert, delete, search operation runs in O(1) time complexity
         // HashMap is a unordered maps in java
 
-        // declare hashmap
-        //HashMap <String ,Integer > map = new HashMap<>();
+        // declare hashmap (unorderd and keys are unique , value may be duplicate)
+        Map <String ,Integer > map = new HashMap<>();
 
         // LinkedHashMap (same as hashmap but keeps the insertion order beacause it uses the doubly linked list to maintain the order)
         //LinkedHashMap <String, Integer> map = new LinkedHashMap<>();
 
-        // TreeMap (the keys are sorted)
-        TreeMap <String , Integer> map = new TreeMap<>();
+        // TreeMap (the keys are sorted in ascending order or alphabetically)
+        //TreeMap <String , Integer> map = new TreeMap<>();
 
 
         // add 

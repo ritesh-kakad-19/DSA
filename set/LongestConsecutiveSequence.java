@@ -1,4 +1,4 @@
-package map;
+package set;
 import java.util.*;
 
 public class LongestConsecutiveSequence {
