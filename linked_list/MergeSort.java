@@ -3,7 +3,7 @@ package linked_list;
 
 // merge sort on linked list
 public class MergeSort {
-    static Node head;
+     Node head;
     
     class Node{
         int data;
