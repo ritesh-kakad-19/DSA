@@ -1,41 +1,41 @@
 package set;
 import java.util.*;
 
+
+// return the count for longest consecutive numbers (ex. 1,2,3,4,..  this are consecutive numbers . so return the count of consecutive numbers from the array)
+
 public class LongestConsecutiveSequence {
+
+    // main function
     public static void main(String[] args) {
-        int arr[] = {100,4,200,1,3,2};
+        int arr[] = {0,1,1,2};
         count(arr);
     }
 
     public static void count(int arr[])
     {
-        HashMap <Integer, Integer> hm = new HashMap<>();
+        TreeSet <Integer> hs = new TreeSet<>();
+
+        int maxCount = 0;
+        int count = 0;
+
         for(int i=0; i<arr.length; i++)
         {
-            int num = arr[i];
-            if(hm.containsKey(num))
+            hs.add(arr[i]);
+        }
+        System.out.println(hs);
+
+        for (Integer i : hs) {
+            if(hs.contains(i-1))
             {
-                hm.put(num, hm.get(num)+1);
+                count++;
             }
             else{
-                hm.put(num, 1);
+                maxCount = Math.max(count, maxCount);
+                count = 1;
             }
         }
-
-        int prev = 0;
-        int maxcount = 0;
-        Set<Integer> keys = hm.keySet();
-
-        for (int k : keys) {
-            
-            if(hm.containsKey(k-1) == false)
-            {
-                maxcount = 1;
-                prev = k;
-            }
-            else{
-                
-            }
-        }
+        maxCount = Math.max(count, maxCount);
+        System.out.println(maxCount);
     }
 }
