@@ -8,6 +8,8 @@ public class TargetSum {
         findElement(arr, target);
     }
 
+
+    // 2-pointer approach
     public static void findElement(int arr[], int target)
     {
         int start = 0;

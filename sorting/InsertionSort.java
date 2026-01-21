@@ -1,9 +1,6 @@
 package sorting;
 
 
-
-
-
 // insertion sort means pick an element fron right unsorted part and place in left sorted part
 public class InsertionSort {
     public static void main(String[] args) {

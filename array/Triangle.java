@@ -2,6 +2,8 @@ package array;
 
 import java.util.*;
 
+
+// incomplete
 public class Triangle {
     public static void main(String[] args) {
         

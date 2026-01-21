@@ -1,5 +1,5 @@
 
-
+// incomplete
 public class SetMatrixZeros {
     public static void main(String[] args) {
         int arr[][] = {{1,0,1},
@@ -21,7 +21,7 @@ public class SetMatrixZeros {
             {
                 if(arr[i][j] == 0)
                 {
-                    
+                    -
                 }
             }
         }
