@@ -2,20 +2,30 @@ import java.util.*;
 
 public class demo {
     public static void main(String[] args) {
-        Queue <Integer> q = new LinkedList<>();
-
-        q.add(1);
-        q.add(2);
-        q.add(3);
-        q.add(4);
-
-        System.out.println(q);
-
-        while(!q.isEmpty())
-        {
-            System.out.println(q.peek());
-            q.poll();
-        }
+       Scanner sc = new Scanner(System.in);
+		// your code goes here
+		char ch = sc.next().charAt(0);
+		System.out.println(ch);
+		
+		switch(ch){
+		case 'a':
+		    System.out.println("vowel");
+		    break;
+		case 'e':
+		    System.out.println("vowel");
+		    break;
+		case 'i':
+		    System.out.println("vowel");
+		    break;
+		case 'o':
+		    System.out.println("vowel");
+		    break;
+		case 'u':
+		    System.out.println("vowel");
+		default:
+		    System.out.println("consonant");
+		    break;
+		}
     }
     
 }
