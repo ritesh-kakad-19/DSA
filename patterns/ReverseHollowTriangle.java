@@ -1,17 +1,15 @@
 package patterns;
 
+//  *   *   *   *   *
+//    *           *
+//      *       * 
+//        *   *
+//          *
 
-//   *   *   *   *   *   
-//     *           *
-//       *       *
-//         *   *
-//           *
-
-
-public class HollowReverseTriangle {
+public class ReverseHollowTriangle {
     public static void main(String[] args) {
         
-        int n=5; 
+        int n = 5;
 
         for(int i=0; i<=0; i++)
         {
@@ -24,7 +22,7 @@ public class HollowReverseTriangle {
 
         for(int i=1; i<n; i++)
         {
-            for(int j=0; j<i; j++)
+            for(int j=1; j<i; j++)
             {
                 System.out.print(" ");
             }
@@ -33,7 +31,7 @@ public class HollowReverseTriangle {
             {
                 if(j == i || j == n-1)
                 {
-                    System.out.print("* ");
+                    System.out.print(" *");
                 }
                 else{
                     System.out.print("  ");
