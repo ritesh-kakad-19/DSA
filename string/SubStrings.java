@@ -1,7 +1,5 @@
 package string;
 
-
-// incomplete
 public class SubStrings {
     public static void main(String[] args) {
         String str = "abcde";
@@ -13,15 +11,13 @@ public class SubStrings {
     {
         for(int i=0; i<str.length(); i++)
         {
-            int j=i;
-            while(j<str.length())
+            String ans = "";
+            for(int j=i; j<str.length(); j++)
             {
-                System.out.print(str.charAt(j))
+                ans = ans+""+str.charAt(j);
+                System.out.println(ans);
             }
+            System.out.println();
         }
-
-        
-
-        
     }
 }

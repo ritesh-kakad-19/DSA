@@ -36,6 +36,7 @@ public class DemoMap {
         // get (we can get value by key)
         System.out.println(map.get("ritesh"));     // 1
         System.out.println(map.get("om"));     // null
+        
 
         // remove (removes key-value pair)
         System.out.println(map.remove("sham"));      // 6
