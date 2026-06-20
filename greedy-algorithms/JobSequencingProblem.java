@@ -2,7 +2,7 @@ import java.util.*;
 
 public class JobSequencingProblem {
 
-    // we have given 2d array with pairs of deadline time and profit of job, we have to find out max profit by doing jobs before deadline , and one job at a time. 
+    // we have given 2d array with pairs of index, deadline time and profit of job, we have to find out max profit by doing jobs before deadline , and one job at a time. 
     public static void main(String[] args) {
         int arr[][] = {{1,4,20}, {2,1,10}, {3,1,40}, {4,1,30}, {5,4,50}, {6,3,20}};
         findMaxProfit(arr);

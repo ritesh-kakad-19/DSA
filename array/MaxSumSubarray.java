@@ -1,6 +1,6 @@
 package array;
 
-// find the subarray of size k which have maximum size
+// find the subarray of size k which have maximum sum
 public class MaxSumSubarray {
     public static void main(String[] args) {
         int arr[] = {2, 1, 5, 1, 3, 2};
